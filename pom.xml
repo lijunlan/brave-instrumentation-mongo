@@ -8,6 +8,10 @@
     <artifactId>brave-instrumentation-mongo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <name>Brave Instrumentation Mongo</name>
+    <description>Brave Instrumentation Mongo</description>
+    <url>https://github.com/lijunlan/brave-instrumentation-mongo/tree/master</url>
+
     <developers>
         <developer>
             <name>Junlan Li</name>
