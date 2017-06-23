@@ -1,7 +1,20 @@
 # brave-instrumentation-mongo
 This module contains a tracing listener for mongodb-driver
 
-## Configuration
+### Maven configuration
+
+Add the Maven dependency:
+
+```xml
+<dependency>
+    <groupId>com.junlanli.zipkin.brave</groupId>
+    <artifactId>brave-instrumentation-mongo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
+```
+
+
+### Configuration
 
 Tracing always needs a bean of type `Tracing` configured. Make sure
 it is in place before proceeding.
