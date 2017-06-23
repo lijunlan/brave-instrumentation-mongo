@@ -3,6 +3,16 @@ This module contains a tracing listener for mongodb-driver
 
 ### Maven configuration
 
+Add the Maven Mirror
+```xml
+<mirror>
+    <id>junlanli</id>
+    <name>junlanli maven</name>
+    <url>http://www.junlanli.com:8081/repository/maven-public/</url>
+    <mirrorOf>nexus</mirrorOf>
+</mirror>
+```
+
 Add the Maven dependency:
 
 ```xml
